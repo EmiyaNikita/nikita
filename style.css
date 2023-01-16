@@ -1,0 +1,208 @@
+#elem {
+	text-shadow: 10px 5px 3px rgb(255, 0, 0);
+}
+#elem2 {
+    text-shadow: -10px -5px rgb(0, 255, 0);
+}
+#elem3 {
+    text-shadow: 15px -10px rgb(0, 255, 0);
+}
+#elem4 {
+    text-shadow: 0px 0px 5px rgb(0, 255, 0);
+}
+#elem5 {
+    text-shadow: 0px -5px rgb(255, 0, 0), 0px 5px rgb(0, 255, 0);
+}
+#elem6 {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+#elem7 {
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+#elem8 {
+    text-shadow: 0px 0px 2px rgb(255, 0, 0);
+}
+#elem9 {
+    text-shadow: -10px -10px 2px rgb(0, 0, 255), 10px 10px 2px rgb(255, 0, 0);
+}
+#elem10 {
+    text-shadow: 20px 20px rgb(0, 0, 255), 10px 10px rgb(255, 0, 0);
+}
+#elem11 {
+	box-shadow: 20px 15px 5px rgb(255, 0, 0);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem12 {
+	box-shadow: 20px -15px rgb(0, 255, 0);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem13 {
+	box-shadow: inset 0 0 5px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem14 {
+	box-shadow: inset 4px 3px 5px black;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem15 {
+	box-shadow: 0px 3px 1px rgb(0, 255, 0), 0px -3px 1px rgb(255, 255, 0);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem16 {
+	box-shadow: 0px 30px 0px rgb(0, 255, 0), 0px -30px 0px rgb(255, 255, 0), 30px 0px 0px rgb(255, 0, 0), -30px 0px 0px rgb(0, 0, 255);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem17 {
+	box-shadow: 15px 20px 0px rgb(0, 0, 0);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem18 {
+	box-shadow: 15px 20px 5px rgb(0, 0, 0);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem19 {
+	box-shadow: 15px 20px 5px rgb(0, 0, 0), -15px -20px 5px rgb(0, 0, 0);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem20 {
+	box-shadow: inset 5px 5px 5px rgb(0, 0, 0);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem21 {
+	box-shadow: inset 5px 5px 5px rgb(0, 0, 255), inset -5px -5px 5px rgb(255, 0, 0);
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem22 {
+	background: linear-gradient(rgb(255, 255, 0), rgb(255, 255, 255));
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem23 {
+	background: linear-gradient(90deg, rgb(255, 255, 0), rgb(255, 255, 255));
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem24 {
+	background: linear-gradient(-90deg, rgb(255, 255, 0), rgb(255, 255, 255));
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem25 {
+	background: linear-gradient(-45deg, rgb(255, 0, 0), rgb(255, 255, 255));
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem26 {
+	background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 0, 255));
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem27 {
+	background: linear-gradient(rgb(255, 255, 255) 50%, 
+		rgb(255, 0, 0) 50%);
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem28 {
+	background: radial-gradient(rgb(0, 174, 255), rgba(0, 0, 0, 0.750));
+	width: 200px;
+	height: 200px;
+}
+#elem29 {
+	background: radial-gradient(at top center, rgb(0, 174, 255), rgba(0, 0, 0, 0.750));
+	width: 200px;
+	height: 200px;
+}
+#elem30 {
+	background: radial-gradient(rgb(0, 174, 255), rgba(0, 0, 0, 0.775));
+	width: 200px;
+	height: 200px;
+}
+#elem31 {
+	background: radial-gradient(rgb(0, 174, 255), rgba(0, 0, 0, 0.800));
+	width: 200px;
+	height: 200px;
+}
+#elem32 {
+	background: radial-gradient(rgb(0, 174, 255), rgba(0, 0, 0, 0.850));
+	width: 200px;
+	height: 200px;
+}
+#elem33 {
+	background: radial-gradient(at 40px 40px, rgb(0, 174, 255) 1px, rgba(0, 0, 0, 0.850) 50px);
+	width: 200px;
+	height: 200px;
+}
+#elem34 {
+	background: radial-gradient(rgb(0, 0, 0) 5px, rgb(255, 255, 255) 30px, rgb(255, 255, 255) 40px, green 
+		60px); 
+	width: 200px;
+	height: 200px;
+}
+#elem35 {
+	background: radial-gradient(green 32px, white 32px, white 55px, green 55px); 
+	width: 200px;
+	height: 200px;
+}
+#elem36 {
+	background: repeating-linear-gradient(to left, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 5px, rgb(255, 255, 255) 5px, 
+		rgb(255, 255, 255) 10px); 
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem37 {
+	background: repeating-linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 5px, rgb(255, 255, 255) 5px, 
+		rgb(255, 255, 255) 10px); 
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem38 {
+	background: repeating-linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 1px, rgb(255, 255, 255) 1px, 
+		rgb(255, 255, 255) 6px); 
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem39 {
+	background: repeating-linear-gradient(45deg, red 0px, red 3px, white 3px, white 
+		10px); 
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+#elem40 {
+	background: repeating-radial-gradient(circle at center, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 5px, white 5px, white 10px);
+    border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
